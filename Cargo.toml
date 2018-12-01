@@ -1,0 +1,6 @@
+[package]
+name = "aoc_2018_rs"
+version = "0.1.0"
+authors = ["SteffenSunde <steffen.sunde@gmail.com>"]
+
+[dependencies]
