@@ -29,8 +29,8 @@ fn solve_part2() -> Result<i64, &'static str> {
     let mut first_repeat: Option<i64> = None;
     let mut total_change: i64 = 0;
     while first_repeat.is_none() {
-        let data_file = File::open("inputs/day01.input").unwrap();
-        let data = BufReader::new(&data_file);
+        let data_file = File::open("inputs/day01.input").unwrap();  // TODO: Move out of loop
+        let data = BufReader::new(&data_file);  // TODO: Move out of loop
         for line in data.lines() {
             total_change = total_change + line.unwrap().parse::<i64>().unwrap();
             if visited.contains_key(&total_change) {
