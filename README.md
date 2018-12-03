@@ -1,7 +1,5 @@
 # aoc_2018_rs #
 
-Trying the Advent of Code for 2018 using rust.
+Suboptimal solutions to Advent of Code 2018 written in Rust.
 
-See the Advent of Code at https://adventofcode.com/
-
-Warning: Written in a rust-learning effort.
+See https://adventofcode.com/
